@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "productType": "Honey",
+    "manufacturer": "Пасека №1",
+    "title": "Мёд натуральный цветочный фасованный «СТОЛБУШИНО»",
+    "props": "В наличии",
+    "price": 4425,
+    "cover": {
+      "desktop": "./data/images/1.webp",
+      "tablet": "./data/images/1.webp",
+      "mini": "./data/images/1.webp",
+      "mobile": "./data/images/1.webp"
+    }
+  },
+  {
+    "id": 2,
+    "productType": "Honey",
+    "manufacturer": "Пасека №1",
+    "title": "Мёд натуральный цветочный фасованный",
+    "props": "В наличии",
+    "price": 896,
+    "cover": {
+      "desktop": "./data/images/2.png",
+      "tablet": "./data/images/2.png",
+      "mini": "./data/images/2.png",
+      "mobile": "./data/images/2.png"
+    }
+  },
+  {
+    "id": 3,
+    "productType": "Honey",
+    "manufacturer": "Пасека №1",
+    "title": "Мёд натуральный цветочный «Пушкинский Заповедный»",
+    "props": "В наличии",
+    "price": 1539,
+    "cover": {
+      "desktop": "./data/images/3.webp",
+      "tablet": "./data/images/3.webp",
+      "mini": "./data/images/3.webp",
+      "mobile": "./data/images/3.webp"
+    }
+  },
+  {
+    "id": 4,
+    "productType": "Honey",
+    "manufacturer": "Пасека №1",
+    "title": "Мед натуральный разнотравье",
+    "props": "Нет в наличии",
+    "price": 1539,
+    "cover": {
+      "desktop": "./data/images/4.webp",
+      "tablet": "./data/images/4.webp",
+      "mini": "./data/images/4.webp",
+      "mobile": "./data/images/4.webp"
+    }
+  },
+  {
+    "id": 5,
+    "productType": "Honey",
+    "manufacturer": "Пасека №5",
+    "title": "Мягкий натуральный мед с прополисом ",
+    "props": "В наличии",
+    "price": 6355,
+    "cover": {
+      "desktop": "./data/images/5.webp",
+      "tablet": "./data/images/5.webp",
+      "mini": "./data/images/5.webp",
+      "mobile": "./data/images/5.webp"
+    }
+  },
+  {
+    "id": 6,
+    "productType": "Honey",
+    "manufacturer": "Пасека №5",
+    "title": "Мед натуральный можжевеловый",
+    "props": "В наличии",
+    "price": 369,
+    "cover": {
+      "desktop": "./data/images/6.webp",
+      "tablet": "./data/images/6.webp",
+      "mini": "./data/images/6.webp",
+      "mobile": "./data/images/6.webp"
+    }
+  },
+  {
+    "id": 7,
+    "productType": "Beekeeping products",
+    "manufacturer": "Пасека №5",
+    "title": "Прополис прессованный",
+    "props": "10 гр.",
+    "price": 97,
+    "cover": {
+      "desktop": "./data/images/7.webp",
+      "tablet": "./data/images/7.webp",
+      "mini": "./data/images/7.webp",
+      "mobile": "./data/images/7.webp"
+    }
+  },
+  {
+    "id": 8,
+    "productType": "Honey container",
+    "manufacturer": "Пасека №2",
+    "title": "Банка стеклянная",
+    "props": "0,25 л. высокая (шайба)",
+    "price": 45,
+    "cover": {
+      "desktop": "./data/images/8.webp",
+      "tablet": "./data/images/8.webp",
+      "mini": "./data/images/8.webp",
+      "mobile": "./data/images/8.webp"
+    }
+  }
+]

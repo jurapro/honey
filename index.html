@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="img/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Объединение пасек России</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__left">
+        <a class="logo">
+          <img src="./img/logo.png" alt="Логотип">
+        </a>
+      </div>
+      <div class="header__right">
+        <nav class="nav header__nav">
+          <ul class="list-reset nav__list">
+            <li class="nav__item"><a href="#catalog" class="nav__link">Продукция</a></li>
+            <li class="nav__item"><a href="#newbies" class="nav__link">Новинки</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+          </ul>
+        </nav>
+        <button class="burger" aria-label="Открыть меню">
+          <span class="burger__line"></span>
+        </button>
+        <a href="#" class="cart" aria-label="Переход в корзину">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_3:994)">
+              <path
+                d="M9.25001 21.1667C9.75627 21.1667 10.1667 20.7563 10.1667 20.25C10.1667 19.7438 9.75627 19.3334 9.25001 19.3334C8.74375 19.3334 8.33334 19.7438 8.33334 20.25C8.33334 20.7563 8.74375 21.1667 9.25001 21.1667Z"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path
+                d="M19.3333 21.1667C19.8396 21.1667 20.25 20.7563 20.25 20.25C20.25 19.7438 19.8396 19.3334 19.3333 19.3334C18.8271 19.3334 18.4167 19.7438 18.4167 20.25C18.4167 20.7563 18.8271 21.1667 19.3333 21.1667Z"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path
+                d="M1.91666 1.91663H5.58332L8.03999 14.1908C8.12381 14.6128 8.35341 14.9919 8.68857 15.2617C9.02374 15.5315 9.44313 15.6749 9.87332 15.6666H18.7833C19.2135 15.6749 19.6329 15.5315 19.9681 15.2617C20.3032 14.9919 20.5328 14.6128 20.6167 14.1908L22.0833 6.49996H6.49999"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+            <defs>
+              <clippath id="clip0_3:994">
+                <rect width="22" height="22" fill="white" transform="translate(1 1)"></rect>
+              </clippath>
+            </defs>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container grid">
+        <picture class="hero__image">
+          <source srcset="img/hero-img-mini.jpg" media="(max-width: 700px)">
+          <img src="./img/hero-img.jpg" alt="" aria-hidden="true">
+        </picture>
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Объединение пасек России <span>&laquo;Медовод&raquo;</span>
+          </h1>
+          <p class="hero__descr">
+            Медовод - это новый бренд среди объединяющий производителей мёда и медовых наборов, готовый предложить полезные и качественные лакомства в уникальной упаковке
+          </p>
+          <a href="#" class="btn btn--stroke hero__link">Продукция</a>
+        </div>
+      </div>
+    </section>
+    <section class="catalog" id="catalog">
+      <div class="container">
+        <div class="catalog__top">
+          <h2 class="title catalog__title">Продукция</h2>
+          <ul class="list-reset catalog-tabs">
+            <li class="catalog-tabs__item"><button class="btn-reset catalog-tabs__btn catalog-tabs__btn--active"
+                data-product-type="Honey">Мед</button></li>
+            <li class="catalog-tabs__item"><button class="btn-reset catalog-tabs__btn"
+                data-product-type="Beekeeping products">Продукция пчеловодства</button></li>
+            <li class="catalog-tabs__item"><button class="btn-reset catalog-tabs__btn"
+                data-product-type="Honey container">Тара для меда</button></li>
+          </ul>
+        </div>
+        <ul class="list-reset catalog-list grid">
+        </ul>
+      </div>
+    </section>
+    <section class="newbies" id="newbies">
+      <div class="container">
+        <h2 class="title newbies__title">Натуральный свежий мёд в нашем магазине</h2>
+        <div class="newbies__content">
+          <p class="newbies__descr">
+            Мёд в нашем магазине – с пасеки в экологически чистом районе. Мёд с пасеки пряный, насыщенный, ароматный, со вкусом луговых трав. 
+          </p>
+          <p class="newbies__descr">
+            Мягкий мёд с прополисом и травами укрепит иммунитет и даст заряд энергии. Натуральный цветочный горный мёд – отличное дополнение к чаю, при нагревании раскрывается фруктово-цветочный аромат. Гречишный мёд несёт пользу для работы сердца, а на вкус и аромат более терпкий и насыщенный. 
+          </p>
+        </div>
+        <a href="#" class="btn btn--fill newbies__link">Ознакомиться</a>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container grid">
+        <picture class="about__image">
+          <source srcset="img/about-img-tablet.png" media="(max-width: 768px)">
+          <img src="./img/about-img.png" alt="" aria-hidden="true">
+        </picture>
+        <div class="about__content">
+          <h2 class="title about__title">
+            Наша команда
+          </h2>
+          <p class="about__descr">
+            Мы открылись в 2022 году в Республике Башкортостан и основа нашего ассортимента - знаменитый башкирский мёд, известный своим вкусом и полезными свойствами, история которого уходит на столетия назад. Мёд собирается в экологически чистых районах Башкирии - Мелеузовском и Бурзянском. Розлив и производство находится в Уфе.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__left">
+        <a class="logo footer__logo">
+          <img src="./img/logo.png" alt="Логотип">
+        </a>
+        <div class="footer-phone">
+          <a href="tel:+79995435454" class="footer-phone__link">+7 (999) 543-54-54</a>
+          <span class="footer-phone__text">Центральный офис</span>
+        </div>
+      </div>
+      <div class="footer__right">
+        <div class="footer-menu">
+          <div class="footer-menu__col">
+            <h3 class="footer-menu__title">Продукция</h3>
+            <ul class="list-reset footer-menu__list">
+              <li class="footer-menu__item"><a href="#" class="footer-menu__link">Мед</a></li>
+              <li class="footer-menu__item"><a href="#" class="footer-menu__link">Продукция пчеловодства</a></li>
+              <li class="footer-menu__item"><a href="#" class="footer-menu__link">Тара для меда</a></li>
+            </ul>
+          </div>
+          <div class="footer-menu__col">
+            <h3 class="footer-menu__title">Новинки</h3>
+            <ul class="list-reset footer-menu__list">
+              <li class="footer-menu__item"><a href="#" class="footer-menu__link">2024</a></li>
+              <li class="footer-menu__item"><a href="#" class="footer-menu__link">2023</a></li>
+            </ul>
+          </div>
+        </div>
+          <p class="footer__copyright">
+            Объединение пасек России <span>&laquo;Медовод&raquo; <sup class="reg">®</sup>
+            <span>Все права защищены</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/script.js"></script>
+
+
+</body>
+<div id="passwork_content_script"></div>
+
+</html>
