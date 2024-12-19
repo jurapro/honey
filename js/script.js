@@ -1,10 +1,6 @@
 const catalogList = document.querySelector('.catalog-list');
 const catalogBtns = document.querySelectorAll('.catalog-tabs__btn');
 
-const normalPrice = (str) => {
-  return String(str).replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 ');
-};
-
 const loadCatalog = (productType) => {
   catalogList.innerHTML = '';
 
@@ -30,7 +26,7 @@ const loadCatalog = (productType) => {
                   <span class="product__author">${item.manufacturer}</span>
                   <h3 class="product__title">${item.title}</h3>
                   <span class="product__props">${item.props}</span>
-                  <div class="product__price">${normalPrice(item.price)} руб</div>
+                  <div class="product__price">${item.price} руб</div>
                   <button class="btn-reset btn btn--stroke product__btn">В корзину</button>
                 </div>
               </article>
